@@ -1,0 +1,32 @@
+
+  resnet50_v2 (RN50-V2):
+    Pretrained:  Acc=80.86%  AUROC=0.6978
+    AugDelete:   Acc=80.80%  AUROC=0.7958
+    AugDelete*:  Acc=80.78±0.00%  AUROC=0.8086±0.0000  (5 seeds)
+    CSKD T=0.5(λ=0.9):  Acc=80.69%  AUROC=0.8068  [override]
+    CSKD Decomp: Acc=80.69%  C+E AUROC=0.8373
+
+  resnet101_v2 (RN101-V2):
+    Pretrained:  Acc=81.91%  AUROC=0.7269
+    AugDelete:   Acc=81.74%  AUROC=0.7966
+    AugDelete*:  Acc=81.73±0.01%  AUROC=0.8064±0.0000  (5 seeds)
+    CSKD T=0.5(λ=0.9):  Acc=81.44%  AUROC=0.7903  [override]
+    CSKD Decomp: Acc=81.44%  C+E AUROC=0.8246
+
+  resnet152_v2 (RN152-V2):
+    Pretrained:  Acc=82.29%  AUROC=0.7315
+    AugDelete:   Acc=82.26%  AUROC=0.7988
+    AugDelete*:  Acc=82.27±0.00%  AUROC=0.8103±0.0000  (5 seeds)
+    CSKD T=0.5(λ=0.9):  Acc=82.03%  AUROC=0.7972  [override]
+    CSKD Decomp: Acc=82.03%  C+E AUROC=0.8313
+
+  resnet50_v1 (RN50-V1): V1 Pretrained Acc=76.13%  AUROC=0.7675
+
+  Filtered: 13 -> 9 data points (methods kept: ['Pretrained', 'AugDelete', 'CSKD T=0.5'])
+
+  Collected 9 data points
+
+  Saved: ./outputs/figures/fig1_pretrained_augdelete_cskd_lam09.pdf
+  Saved: ./outputs/figures/fig1_pretrained_augdelete_cskd_lam09.png
+
+Done.

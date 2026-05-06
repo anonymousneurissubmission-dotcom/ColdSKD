@@ -1,0 +1,85 @@
+
+  resnet50_v2 (RN50-V2):
+    Pretrained:  Acc=80.86%  AUROC=0.6978
+    AugDelete:   Acc=80.80%  AUROC=0.7958
+    AugDelete*:  Acc=80.78±0.00%  AUROC=0.8086±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=80.71±0.00%  AUROC=0.8169±0.0000  (5 seeds)
+    CSKD Decomp: Acc=80.70%  C+E AUROC=0.8325
+
+  resnet101_v2 (RN101-V2):
+    Pretrained:  Acc=81.91%  AUROC=0.7269
+    AugDelete:   Acc=81.74%  AUROC=0.7966
+    AugDelete*:  Acc=81.73±0.01%  AUROC=0.8064±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=81.81±0.01%  AUROC=0.8206±0.0000  (5 seeds)
+    CSKD Decomp: Acc=81.81%  C+E AUROC=0.8433
+
+  resnet152_v2 (RN152-V2):
+    Pretrained:  Acc=82.29%  AUROC=0.7315
+    AugDelete:   Acc=82.26%  AUROC=0.7988
+    AugDelete*:  Acc=82.27±0.00%  AUROC=0.8103±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=82.32±0.00%  AUROC=0.8237±0.0000  (5 seeds)
+    CSKD Decomp: Acc=82.33%  C+E AUROC=0.8492
+
+  inception_v3 (Inc-V3):
+    Pretrained:  Acc=77.30%  AUROC=0.7577
+    AugDelete:   Acc=77.03%  AUROC=0.7882
+    AugDelete*:  Acc=77.05±0.00%  AUROC=0.7967±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=77.13±0.00%  AUROC=0.8097±0.0000  (5 seeds)
+    CSKD Decomp: Acc=77.13%  C+E AUROC=0.8110
+
+  efficientnet_b1_v1 (EffNet-B1-V1):
+    Pretrained:  Acc=78.64%  AUROC=0.7123
+    AugDelete:   Acc=78.37%  AUROC=0.7552
+    AugDelete*:  Acc=78.37±0.00%  AUROC=0.7661±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=78.35±0.00%  AUROC=0.7804±0.0000  (5 seeds)
+    CSKD Decomp: Acc=78.35%  C+E AUROC=0.8130
+
+  swin_t_v1 (Swin-T-V1):
+    Pretrained:  Acc=81.47%  AUROC=0.7740
+    AugDelete:   Acc=81.48%  AUROC=0.8114
+    AugDelete*:  Acc=81.49±0.00%  AUROC=0.8237±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=81.49±0.00%  AUROC=0.8436±0.0000  (5 seeds)
+    CSKD Decomp: Acc=81.50%  C+E AUROC=0.8549
+
+  swin_t_v2 (Swin-T-V2):
+    Pretrained:  Acc=82.05%  AUROC=0.7774
+    AugDelete:   Acc=82.15%  AUROC=0.8088
+    AugDelete*:  Acc=82.15±0.00%  AUROC=0.8186±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=82.15±0.00%  AUROC=0.8363±0.0000  (5 seeds)
+    CSKD Decomp: Acc=82.15%  C+E AUROC=0.8577
+
+  regnet_y_16gf_v2 (RegNet-V2):
+    Pretrained:  Acc=82.88%  AUROC=0.7382
+    AugDelete:   Acc=83.01%  AUROC=0.8042
+    AugDelete*:  Acc=83.02±0.00%  AUROC=0.8205±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=82.96±0.00%  AUROC=0.8295±0.0000  (5 seeds)
+    CSKD Decomp: Acc=82.96%  C+E AUROC=0.8430
+
+  vit_b_16_v1 (ViT-B16-V1):
+    Pretrained:  Acc=81.07%  AUROC=0.7322
+    AugDelete:   Acc=80.67%  AUROC=0.8141
+    AugDelete*:  Acc=80.70±0.00%  AUROC=0.8296±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=80.96±0.00%  AUROC=0.8506±0.0000  (5 seeds)
+    CSKD Decomp: Acc=80.96%  C+E AUROC=0.8512
+
+  vit_b_16_v2 (ViT-B16-SWAG):
+    Pretrained:  Acc=85.29%  AUROC=0.8561
+    AugDelete:   Acc=84.50%  AUROC=0.8767
+    AugDelete*:  Acc=84.49±0.00%  AUROC=0.8873±0.0000  (5 seeds)
+    CSKD T=0.5:  Acc=85.17±0.00%  AUROC=0.9040±0.0000  (5 seeds)
+    CSKD Decomp: Acc=85.17%  C+E AUROC=0.8854
+
+  resnet50_v1 (RN50-V1): V1 Pretrained Acc=76.13%  AUROC=0.7675
+
+  resnet101_v1 (RN101-V1): V1 Pretrained Acc=77.38%  AUROC=0.8005
+
+  resnet152_v1 (RN152-V1): V1 Pretrained Acc=78.32%  AUROC=0.8131
+
+  Filtered: 43 -> 20 data points (methods kept: ['CSKD T=0.5', 'CSKD Decomp'])
+
+  Collected 20 data points
+
+  Saved: ./outputs/figures/fig1_acc_vs_auroc_cskd_only.pdf
+  Saved: ./outputs/figures/fig1_acc_vs_auroc_cskd_only.png
+
+Done.

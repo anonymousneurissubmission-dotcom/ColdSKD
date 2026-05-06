@@ -1,0 +1,7 @@
+Script: plot_1x3_cifar100_alpha_sweep.py
+Layout: 1 row x 3 cols (alpha=0.1, 0.2, 0.3) for CIFAR-100 RN18.
+Multi-seed averaged across {0,1,2}. y shared across cols.
+Per panel: signed gradient norms
+  -(1-lam)*||G_CE||_F (dashed) and +lam*||G_KL||_F (solid+marker).
+KD loss = T^2 * KL(p_s_T||p_tau_T). T axis [0.1, 50] log.
+Lambdas: [0.3, 0.5, 0.7, 0.9]

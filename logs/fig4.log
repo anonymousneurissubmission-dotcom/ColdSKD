@@ -1,0 +1,18 @@
+  resnet50_v1: CE=0.7969  best T=0.5 AUROC=0.7986
+  resnet101_v1: CE=0.8085  best T=0.75 AUROC=0.8098
+  resnet152_v1: CE=0.8195  best T=0.75 AUROC=0.8223
+  resnet50_v2: CE=0.7987  best T=0.25 AUROC=0.7996
+  resnet101_v2: CE=0.7988  best T=0.5 AUROC=0.8066
+  resnet152_v2: CE=0.7949  best T=0.5 AUROC=0.8041
+  swin_t_v1: CE=0.8074  best T=0.5 AUROC=0.8206
+  swin_t_v2: CE=0.8053  best T=0.5 AUROC=0.8180
+  efficientnet_b1_v1: CE=0.7631  best T=0.5 AUROC=0.7733
+  regnet_y_16gf_v2: CE=0.7835  best T=0.5 AUROC=0.7903
+  inception_v3: CE=0.7872  best T=0.5 AUROC=0.7934
+  vit_b_16_v1: CE=0.8012  best T=0.5 AUROC=0.8151
+  vit_b_16_v2: CE=0.8655  best T=0.5 AUROC=0.8777
+
+  Saved: ./outputs/figures/fig3_temperature_sweep.pdf
+  Saved: ./outputs/figures/fig3_temperature_sweep.png
+
+Done.

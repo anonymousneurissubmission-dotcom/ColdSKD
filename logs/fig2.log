@@ -1,0 +1,7 @@
+device=cuda:0
+=== cifar100 alpha=0.1 ===
+=== cifar100 alpha=0.2 ===
+=== cifar100 alpha=0.3 ===
+
+wrote ./outputs/figures/plot_1x3_cifar100_alpha_sweep_v2.pdf
+wrote ./outputs/figures/plot_1x3_cifar100_alpha_sweep.txt
